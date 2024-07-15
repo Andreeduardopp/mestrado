@@ -347,30 +347,49 @@ SAC
 
 #### 25 Um produtor rural pretende investir na construção de um barracão para o armazenamento de máquinas, equipamentos e implementos agrícolas. O valor total da construção está estimado em R$ 625.000,00, com 20% à vista. O saldo restante pode ser financiado em 5 prestações anuais, com juros de 12,75% ao ano. Nesse período está contemplado 2 anos de carência, com capitalização do saldo devedor, pois não haverá o pagamento de juros nesse período. Construir a planilha de desenvolvimento do financiamento, preenchendo os quadros a seguir para cada sistema de amortização (PRICE e SAC).
 
+
 price
+
 ![alt text](/assets/images/25a.png)
+
 SAC
+
 ![alt text](/assets/images/25b.png)
 
 #### 26 e 27 Uma indústria metalúrgica pretende investir na construção de um barracão. O valor total da construção está estimado em R$ 500.000,00, com 10% à vista. O saldo restante pode ser financiado em 5 prestações anuais, com juros de 14,25% ao ano. Nesse período está contemplado 2 anos de carência, com capitalização do saldo devedor, pois não haverá o pagamento de juros nesse período. Construir a planilha de desenvolvimento do financiamento, preenchendo o quadro a seguir para o Sistema de Amortização PRICE.
 
 price com capitalizaçãoo 
+<br> 
+
 ![alt text](/assets/images/26.png)
 
+<br> 
+
 SAC sem capitalização
+<br> 
+
 ![alt text](/assets/images/27.png)
 
 #### 28 e 29	Um produtor rural pretende investir na construção de um barracão para o armazenamento de máquinas, equipamentos e implementos agrícolas. O valor total da construção está estimado em R$ 400.000,00, com 15% à vista. O saldo restante pode ser financiado em 5 prestações anuais, com juros de 14,25% ao ano. Nesse período está contemplado 2 anos de carência, sem capitalização do saldo devedor, pois haverá o pagamento de juros nesse período. Nesse contexto, pede-se para construir a planilha de desenvolvimento do financiamento, preenchendo o quadro a seguir para o Sistema de Amortização PRICE.
 
 price com capitalizaçãoo 
+<br> 
+
 ![alt text](/assets/images/28.png)
+<br> 
 SAC sem capitalização
+<br> 
+
 ![alt text](/assets/images/29.png)
 
 #### 30 - 31	Um empreendedor rural pretende investir na construção de um silo para o armazenamento de sua produção de grãos. O valor total da construção está orçado em cerca de R$ 300.000,00, com 25% à vista. O saldo restante pode ser financiado em 4 anos, com juros de 7,5% ao ano. Nesse período está contemplado 2 anos de carência, sem capitalização do saldo devedor, pois haverá o pagamento de juros nesse período. Construir a planilha de desenvolvimento do financiamento, preenchendo o quadro a seguir para o Sistema de Amortização PRICE.
 
-price sem capitalizaçãoo 
-![alt text](/assets/images/30.png)
+price sem capitalizaçãoo
+<br> 
 
+![alt text](/assets/images/30.png)
+<br> 
 SAC sem capitalização
+<br> 
+
 ![alt text](/assets/images/31.png)
