@@ -339,11 +339,11 @@ SAA
 
 Price
 
-![alt text](/assets/images/24a.png)
+![alt text](/assets/images/24A.png)
 
 SAC
 
-![alt text](/assets/images/24b.png)
+![alt text](/assets/images/24B.png)
 
 #### 25 Um produtor rural pretende investir na construção de um barracão para o armazenamento de máquinas, equipamentos e implementos agrícolas. O valor total da construção está estimado em R$ 625.000,00, com 20% à vista. O saldo restante pode ser financiado em 5 prestações anuais, com juros de 12,75% ao ano. Nesse período está contemplado 2 anos de carência, com capitalização do saldo devedor, pois não haverá o pagamento de juros nesse período. Construir a planilha de desenvolvimento do financiamento, preenchendo os quadros a seguir para cada sistema de amortização (PRICE e SAC).
 
