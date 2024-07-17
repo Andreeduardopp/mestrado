@@ -1,14 +1,78 @@
-### 1 Determine a taxa efetiva MENSAL e ANUAL de juros de uma taxa nominal de 11% ao ano com capitalização mensal? Resposta: 0,92% ao mês e 11,57% ao ano.
+### 1 Qual a importância/contribuição da Engenharia Econômica para a sua área de conhecimento/estudo e/ou para o desenvolvimento de futuras atividades/habilidades profissionais?
+ - A Engenharia Econômica desempenha um papel crucial na
+área de engenharia civil e no desenvolvimento de atividades profissionais, principalmente em
+projetos de orçamento e gestão financeira. Na engenharia civil, é essencial considerar
+princípios da engenharia econômica, como cálculo da variação do capital ao longo do tempo e
+análise de juros, para assegurar que os projetos sejam financeiramente viáveis e sustentáveis.
+
+- Trabalhando atualmente com softwares para instituições financeiras e cooperativas de crédito que
+oferecem empréstimos e financiamentos de grande valor, a importância da engenharia econômica se
+torna ainda mais evidente. O conhecimento em taxas de juros, amortização e outros conceitos de
+engenharia econômica é fundamental para desenvolver soluções que atendam às necessidades dessas
+instituições e de seus clientes, e além disso, compreender se essas soluções estão se comportando de
+acordo com a teoria.
+
+### 2 Explique, COM SUAS PALAVRAS, o que é preciso fazer para avaliar de forma adequada aviabilidade econômica de um Projeto de Investimento (PI) na sua área de conhecimento/estudo.
+
+- Para a análise de viabilidade de software é necessário primeiro que a empresa faça um
+estudo de mercado para identificar o potencial e a demanda de tal investimento, Após essa
+analise deve ser feito uma estimativa do custo desse projeto com a receita que será gerada do
+mesmo, para que assim seja descartada ideia que apesar de plausíveis não são
+economicamente sustentáveis para a empresa, além disso, com essa análise será
+possível calcular um tempo de retorno do investimento inicial como também diversas outras
+métricas que serão importantes fatores de decisão para os stock holders da empresa. Por
+último e não menos importante, é necessário serem levados em conta os riscos do investimento
+e as variáveis que terão maior impacto no processo de desenvolvimento desse projeto, para
+que assim possam ser pensados em planos de mitigação e riscos e gastos.
+
+### 3 Defina, COM SUAS PALAVRAS, o princípio básico da Matemática Financeira.
+- Insira sua resposta aqui. O princípio básico da matemática financeira está centrado na ideia de
+que o valor do dinheiro varia ao longo do tempo. Para se lidar com valores monetários em
+diferentes períodos, é essencial considerar fatores como inflação e juros.
+
+### 4 Defina, COM SUAS PALAVRAS, o conceito e a fórmula básica/fundamental de juros, independente do regime de capitalização (simples, compostos ou contínuos). Na sequência, diferencie juros simples de juros compostos.
+
+- Juro é o valor que deve ser pago pelo uso do capital ao longo do tempo, ou seja, valor
+adicional pago sobre um empréstimo ou investimento.
+A formula básica para se calcular os juros é (valor do juro = capital inicial * taxa de juro *
+Número de períodos).
+- A diferença entre os juros compostos e simples é que, nos juros simples, a taxa de juros é
+aplicada apenas ao capital inicial. Isso significa que, se temos um número de períodos igual a
+vinte, a taxa de juros será aplicada ao capital inicial vinte vezes, resultando em um crescimento
+linear dos juros ao longo do tempo.
+- Por outro lado, nos juros compostos, a taxa de juros é aplicada ao valor inicial somado ao
+juro acumulado dos períodos anteriores. Isso significa que a cada período a taxa de juros é
+aplicada a um valor maior, pois inclui os juros acumulados. Esse processo resulta em um
+crescimento exponencial do montante, fazendo com que o valor final seja significativamente
+maior do que no regime de juros simples, especialmente em períodos mais longos.
+
+### 5 Comente sobre a diferença entre uma taxa de juros nominal e uma taxa de juros efetiva. Na sequência, explique qual(is) a(s) condição(ões) para que duas taxas efetivas de juros sejam equivalentes?
+- Em uma taxa de juro nominal, o período a que o juro se refere não coincide com o período
+de capitalização, ou seja, podemos ter um juro de 12% ao ano que é capitalizado mensalmente.
+Já em uma taxa de juro efetiva, o juro será sempre referenciado no mesmo período em que se
+ocorre a capitalização, ou seja, no mesmo exemplo acima, teremos um juro de um por cento ao
+mês. As taxas são consideradas equivalentes se resultarem no mesmo valor futuro para o
+mesmo inicial e período, apesar de suas diferentes frequências de capitalização.
+
+### 6 Descreva as principais características dos sistemas de amortização PRICE e SAC.
+- No sistema de amortização price temos como caracteristicas parcelas com valores fixos e
+uma amortização crescente, pois no inicio a maior parte do valor pago nas parcelas sera
+referente ao juro (cobrado em cima do saldo devedor). Ja o sistema SAC propõem um valor de
+amortização constante do saldo devedor, fazendo assim com que as parcelas iniciais sejam
+mais altas, isso, pois o juro é maior nas primeiras parcelas.
+
+### 7 Explique, COM SUAS PALAVRAS, qual a diferença conceitual entre AMORTIZAÇÃO e PRESTAÇÃO. Além disso, estabeleça a relação matemática (fórmula) entre PRESTAÇÃO, JUROS e AMORTIZAÇÃO.
+- Uma prestação é nada mais do que a parcela que sera paga de uma divida, ou seja, se
+temos uma divida que sera paga em 12 vezes de 1000 reais, a prestação sera é mil reais. Ja a
+amortização é o valor da prestação decrescido dos juros , ou seja, é o valor que ira diminuir do
+montante inicial da divida. A relação matemática entre os três é Prestação = amortização + juro
+
+### 10 Determine a taxa efetiva MENSAL e ANUAL de juros de uma taxa nominal de 11% ao ano com capitalização mensal? Resposta: 0,92% ao mês e 11,57% ao ano.
+
+Nessa questão precisamos apenas de um script simples que calcula a taxa efetiva de acordo com a taxa nominal.
 
 ```python
 def calcula_taxa_efetiva(taxa_nominal_mes, periodo_desejado):
-    """
-    Calcula a taxa efetiva dada uma taxa nominal mensal e o período desejado.
-    
-    :param taxa_nominal_mes: Taxa nominal mensal (%)
-    :param periodo_desejado: Período desejado (em meses para taxa efetiva anual)
-    :return: Taxa efetiva (%)
-    """
     taxa_efetiva_mes = (1 + taxa_nominal_mes / 100)
     taxa_efetiva = (taxa_efetiva_mes ** periodo_desejado)
     return (taxa_efetiva - 1) * 100
@@ -25,19 +89,12 @@ print(f"Taxa efetiva mensal: {taxa_efetiva_mensal:.2f}%")
 print(f"Taxa efetiva anual: {taxa_efetiva_anual:.2f}%")
 
 ```
+ - ### resposta:  Taxa efetiva mensal é 0,92% e anual 11,57%    
 
 #### 12 Quanto precisamos depositar hoje em um fundo de aplicação para a substituição de um implemento, no valor de R$ 80.000,00 daqui a 2 (dois) anos, se a instituição financeira remunera o capital a uma taxa de 0,56% ao mês? 
 ```python
 def calcular_valor_presente(valor_futuro, taxa_mensal, num_meses):
-    """
-    Calcula o valor presente necessário para alcançar um valor futuro dado
-    uma taxa de juros mensal e o número de meses.
-    
-    :param valor_futuro: Valor futuro desejado (R$)
-    :param taxa_mensal: Taxa de juros mensal (%)
-    :param num_meses: Número de meses
-    :return: Valor presente necessário (R$)
-    """
+
     valor_presente = valor_futuro / ((1 + taxa_mensal / 100) ** num_meses)
     return valor_presente
 
@@ -50,10 +107,14 @@ num_meses = 2 * 12  # 2 anos em meses
 valor_presente = calcular_valor_presente(valor_futuro, taxa_mensal, num_meses)
 print(valor_presente)
 ```
+
+ - ### resposta:  Valor presente igual a 69965,45 reais.    
+
+
 #### 13 Qual o valor presente (VP) das séries de pagamentos não-uniformes apresentadas nas Figuras a seguir. Considere uma taxa de juros (i) igual a 11% ao ano e um horizonte de análise (N) de 5 (cinco) anos. Resposta: (a) R$ 1.031,99; (b) R$ 1.185,55.
 
 O codigo abaixo pode ser utilizado para os exercicio 13, 14 e 15 apenas modificando os valores da lista de fluxo e os juros anuais.
-
+[ARQUIVO CODIGO](/exercicios_teoria/exercicio_valor_presente.py)
 ```python
 def calcular_valor_presente(lista_fluxo, taxa_anual):
     """
@@ -74,13 +135,20 @@ def calcular_valor_presente(lista_fluxo, taxa_anual):
     return valor_presente
 
 # Dados do problema
-lista_fluxo = [100, 200, 300, 400, 500]
-taxa_anual = 11
+lista_fluxo = [100, 200, 300, 400, 500] # pode ser alterada de acordo
+taxa_anual = 11 # pode ser alterado
 
 # Calculando o valor presente
 valor_presente = calcular_valor_presente(lista_fluxo, taxa_anual)
 print(valor_presente)
 ```
+
+ - ### Resposta 13 a = R$1031,99 .
+- ### Resposta 13 B = R$1185,55 .
+- ### Resposta 14  = R$977.23 .
+- ### Resposta 15  = 
+  nessa questão temos que primeiro calcular a taxa efetiva mensal, essa sera de 1,19%, então utilizando a equação chegamos a um valor presente de  R$977.1436,48.
+
 
 #### 16 Considere uma taxa de juros de 12,75% ao ano com capitalização mensal. Nesse contexto, determine o valor presente do fluxo de caixa anual exibido na Figura a seguir.
 
@@ -106,6 +174,7 @@ valor_presente = calcular_valor_presente(lista_fluxo, taxa_anual)
 print(valor_presente)
 
 ```
+ - ### resposta 16 : R$ 791,56
 
 #### 17 Qual o Valor Presente (VP) da série de pagamentos não-uniformes apresentada na Figura a seguir. Considere uma taxa de juros (i) igual a 14,25% ao ano e um horizonte de análise (N) de 5 (cinco) meses. 
 
@@ -142,6 +211,9 @@ valor_presente = calcular_valor_presente(lista_fluxo, taxa_mensal)
 print(valor_presente)
 
 ```
+ - ### resposta 17 : R$ 1499,38
+ - ### resposta 18 : R$ 433.769
+
 #### 19 Calcule o Valor Presente (VP) do Fluxo de Caixa (FC) mensal indicado no diagrama a seguir, com uma taxa de juros (i) de 1% ao mês, no regime de juros compostos.
 
 ```python
@@ -167,6 +239,7 @@ taxa_mensal_percentual = taxa_mensal * 100
 valor_presente = calcular_valor_presente(lista_fluxo, taxa_mensal)
 print(valor_presente)
 ```
+ - ### resposta 18 : R$ 67,00
 
 #### Nos exercicios a seguir sera nessesario importar a lib pandas do python para gerar as tabelas de acordo com o input do usuario. O codigo utilizado sera o seguinte:
 
